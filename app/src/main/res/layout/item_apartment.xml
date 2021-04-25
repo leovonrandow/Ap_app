@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="295dp"
+    android:layout_marginHorizontal="6dp"
+    android:layout_marginVertical="8dp"
+    android:orientation="vertical"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <TextView
+            android:id="@+id/cifrao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17.7dp"
+            android:layout_marginLeft="13dp"
+            android:layout_marginRight="3dp"
+            android:textSize="12sp"
+            android:text="$"
+            android:fontFamily="@font/robotoslab_regular"
+            android:textColor="@color/preço_cor"/>
+
+        <RelativeLayout
+
+            android:layout_toRightOf="@id/cifrao"
+            android:layout_marginTop="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/preco"
+                android:textColor="@color/preço_cor"
+                android:fontFamily="@font/robotoslab_regular"
+                android:textSize="24sp"
+                android:text="1 345"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"/>
+            <TextView
+                android:id="@+id/type_local"
+                android:layout_below="@+id/preco"
+                android:text="Bedroom, asdasda"
+                android:textColor="@color/Light_grey"
+                android:fontFamily="@font/robotoslab_regular"
+                android:textSize="11sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/star"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="7dp"
+            />
+        <TextView
+            android:id="@+id/time"
+            android:layout_below="@+id/star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="13.85dp"
+            android:fontFamily="@font/robotoslab_regular"
+            android:textColor="@color/Light_grey"
+            android:gravity="bottom"
+            android:text="dasdasdas"
+            android:textSize="11sp"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imagem_ap"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        >
+
+        <ImageView
+            android:id="@+id/avatar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="15dp"/>
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="4dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/grey"
+                android:fontFamily="@font/robotoregular"
+                android:textSize="16sp"
+                android:text="Mari Ann"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="10sp"
+                android:textColor="@color/Light_grey"
+                android:fontFamily="@font/robotoregular"
+                android:text="Alison Sweet (mutual)"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
